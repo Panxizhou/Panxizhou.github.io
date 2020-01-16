@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: "Microsoft YaHei", Verdana, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 2;
   color: #555;
   background: #fff;
@@ -1239,7 +1239,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -2097,7 +2097,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e825ff;
+  background: #ffa459;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3144,7 +3144,7 @@ hr {
 }
 .post-button a {
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   background: none;
   border: none;
   border-bottom: 2px solid #666;
@@ -3353,6 +3353,20 @@ hr {
     -o-transform: rotate(10deg);
     transform: rotate(10deg);
   }
+}
+.out-img-topic {
+  display: block;
+  max-height: 300px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+img.img-topic {
+  display: block;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  padding: 0;
+  float: right;
+  clear: right;
 }
 @-moz-keyframes octocat-wave {
   0%, 100% {
