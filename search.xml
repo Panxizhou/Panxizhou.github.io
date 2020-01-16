@@ -8,19 +8,29 @@
       <categories>
         <category>wo</category>
       </categories>
+      <tags>
+        <tag>2</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hi,Mybolg</title>
     <url>/fist.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">你</blockquote>
+    <content><![CDATA[<p><img src="/images/apple-touch-icon-next.jpg" alt="wo"></p>
+<a id="more"></a>  
+<img src="images/apple-touch-icon-next.jpg" alt="洲">
+
+<blockquote class="blockquote-center">你</blockquote>
 Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，在[bilibili](www.bilibili.com/)网站上看相关视频，就动手一步一步干起来!
 采用Node.js + Hexo（cnpm） + Git创建博客框架，并选用网上流行的Next主题,然后按照个人喜好修改。
 
 <p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a></p>
-<a id="more"></a>  ]]></content>
+]]></content>
       <categories>
         <category>wo</category>
       </categories>
+      <tags>
+        <tag>1</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -30,5 +40,8 @@ Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，�
       <categories>
         <category>o</category>
       </categories>
+      <tags>
+        <tag>4</tag>
+      </tags>
   </entry>
 </search>
