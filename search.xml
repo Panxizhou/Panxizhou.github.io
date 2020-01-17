@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>one</title>
-    <url>//posts/one.html</url>
-    <content><![CDATA[<div class="tabs" id="1"><ul class="nav-tabs"><li class="tab active"><a href="#1-1">1</a></li><li class="tab"><a href="#1-2">2</a></li><li class="tab"><a href="#1-3">3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="1-1"><p>11111</p></div><div class="tab-pane" id="1-2"></div><div class="tab-pane" id="1-3"></div></div></div>]]></content>
-      <categories>
-        <category>wo</category>
-      </categories>
-      <tags>
-        <tag>2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pdf测试</title>
-    <url>//posts/test.html</url>
-    <content><![CDATA[<p>wo</p>
-<a id="more"></a>  
-<div class="pdf" target="/posts/test/my.pdf" height=""></div>
-
-]]></content>
-      <categories>
-        <category>wo</category>
-      </categories>
-      <tags>
-        <tag>1</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>second</title>
-    <url>//posts/second.html</url>
-    <content><![CDATA[<p>关于我</p>
-<a id="more"></a>  
-<div class="note default">
-            <h4 id="default"><a href="#default" class="headerlink" title="default"></a>default</h4><p>是类型还有以下几种</p>
-          </div>
-
-<div class="note prim">
-            <h4 id="default"><a href="#default" class="headerlink" title="default"></a>default</h4><p>是类型还有以下几种</p>
-          </div>
-
-<div class="note succ">
-            <h4 id="default"><a href="#default" class="headerlink" title="default"></a>default</h4><p>是类型还有以下几种</p>
-          </div>
-
-
-]]></content>
-      <categories>
-        <category>wo</category>
-      </categories>
-      <tags>
-        <tag>2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hi,Mybolg</title>
+    <title>Happy New Year!</title>
     <url>//posts/fist.html</url>
     <content><![CDATA[<p><img src="/images/apple-touch-icon-next.jpg" alt="wo"></p>
 <a id="more"></a>  
@@ -65,9 +13,6 @@ Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，�
 
 <p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a></p>
 ]]></content>
-      <categories>
-        <category>wo</category>
-      </categories>
       <tags>
         <tag>1</tag>
       </tags>
@@ -80,7 +25,7 @@ Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，�
 <p>Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info.<br>If you get any problems when using Hexo,<br>you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a><br>or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 ]]></content>
       <categories>
-        <category>o</category>
+        <category>zero</category>
       </categories>
       <tags>
         <tag>4</tag>
