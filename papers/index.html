@@ -2,24 +2,41 @@
 
 
 
-  
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta name="google-site-verification" content="D60zVbnZUAo0gVq9opvh7kvrh7BYAyZq4EIZx5Qc2_k">
+<meta name="baidu-site-verification" content="Vr1opseeNq">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 
 
 
-  
-  
-    
-    
+
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+
+
+
+
+
+
   <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2" rel="stylesheet">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-bounce.min.css?v=1.0.2">
 
 
 
@@ -27,8 +44,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -39,118 +54,88 @@
 
 
 
+  <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
 
 
 
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
 
-  
-  
-  
-  
 
-  
-    
-    
-  
 
-  
-    
-      
-    
 
-    
-  
 
-  
 
-  
 
-  
-    
-      
-    
 
-    
-  
 
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
 
 
 
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.jpg?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.jpg?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.jpg?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
 
+    <link rel="stylesheet" href="//fonts.lug.ustc.edu.cn/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
 
-  <meta name="keywords" content="Hexo, NexT" />
 
 
 
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
 
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
 
-<meta name="description" content="Independent, rational, grateful, Loyalty">
-<meta property="og:type" content="website">
-<meta property="og:title" content="paper">
-<meta property="og:url" content="http://yoursite.com/papers/index.html">
-<meta property="og:site_name" content="Pan Xizhou">
-<meta property="og:description" content="Independent, rational, grateful, Loyalty">
-<meta property="article:published_time" content="2020-01-16T11:52:11.000Z">
-<meta property="article:modified_time" content="2020-01-16T13:13:01.718Z">
-<meta property="article:author" content="Pan Xizhou">
-<meta name="twitter:card" content="summary">
 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
 
 
-<script type="text/javascript" id="hexo.configurations">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
-    version: '5.1.4',
-    sidebar: {"display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    scheme: 'Gemini',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: true,
     fancybox: true,
+    fastclick: true,
+    lazyload: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
+    motion: {"enable":true,"async":false,"transition":{"post_block":"shrinkIn","post_header":"slideLeftIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -163,14 +148,58 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/papers/"/>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "dba201be"
+    });
+  daovoice('update');
+  </script>
+
+  <meta name="description" content="Java开发规范  Andriod开发规范  数值计算方法与算法 第3版 张韵华等编 科学出版社 2016.09 210页">
+<meta property="og:type" content="website">
+<meta property="og:title" content="book">
+<meta property="og:url" content="https://lingr7.github.io/book/index.html">
+<meta property="og:site_name" content="离 | Lingr7">
+<meta property="og:description" content="Java开发规范  Andriod开发规范  数值计算方法与算法 第3版 张韵华等编 科学出版社 2016.09 210页">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-10-12T07:16:09.957Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="book">
+<meta name="twitter:description" content="Java开发规范  Andriod开发规范  数值计算方法与算法 第3版 张韵华等编 科学出版社 2016.09 210页">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="离 | Lingr7" type="application/atom+xml">
 
 
 
 
 
-  <title>paper | Pan Xizhou</title>
-  
+  <link rel="canonical" href="https://lingr7.github.io/book/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入查看密码') !== ''){
+                alert('密码不正确,请询问管理员！');
+                history.back();
+            }
+        }
+    })();
+</script>
+  <title>book | 离 | Lingr7</title>
 
 
 
@@ -179,35 +208,66 @@
 
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  
-  
 
-  <div class="container  page-post-detail">
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+
+
+
+
+
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+  <div class="site-meta">
+
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Pan Xizhou</span>
+        <span class="site-title">离 | Lingr7</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
+
+
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -215,91 +275,150 @@
   </div>
 </div>
 
+
+
 <nav class="site-nav">
-  
 
-  
     <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于我
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            时间轴
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-papers">
-          <a href="/papers/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
-            
-            论文
-          </a>
-        </li>
-      
 
-      
+
+
+
+
+          <li class="menu-item menu-item-home">
+
+
+
+
+
+
+
+
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-tags">
+
+
+
+
+
+
+
+
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-categories">
+
+
+
+
+
+
+
+
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-bookmark"></i> <br>分类</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-archives">
+
+
+
+
+
+
+
+
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-about">
+
+
+
+
+
+
+
+
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-互动">
+
+
+
+
+
+
+
+
+
+    <a href="/guestbook/" rel="section"><i class="menu-item-icon fa fa-fw fa-comments"></i> <br>互动</a>
+
+  </li>
+
+
+
+
+          <li class="menu-item menu-item-书籍 menu-item-active">
+
+
+
+
+
+
+
+
+
+    <a href="/book/" rel="section"><i class="menu-item-icon fa fa-fw fa-book"></i> <br>书籍</a>
+
+  </li>
+
+
+
         <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
 
-  
+            <a href="javascript:;" class="popup-trigger">
+
+
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+
+    </ul>
+
+
+
+
+
     <div class="site-search">
-      
+
   <div class="popup search-popup local-search-popup">
   <div class="local-search-header clearfix">
     <span class="search-icon">
@@ -309,9 +428,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -320,72 +437,125 @@
 
 
     </div>
-  
+
 </nav>
 
 
 
- </div>
+
+
+
+
+</div>
     </header>
-    <a href="https://github.com/Panxihzou" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
+
+
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div id="content" class="content">
-            
+
 
   <div id="posts" class="posts-expand">
-    
-    
-    
+
+
+
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">paper</h1>
+<h2 class="post-title" itemprop="name headline">book
+
+</h2>
+
+<div class="post-meta">
 
 
+
+
+
+</div>
 
 </header>
 
-      
-      
-      
+
+
+
       <div class="post-body">
-        
-        
-          
-        
+
+
+          <p>Java开发规范</p>
+<div class="pdf" target="./Java开发规范.pdf" height></div>
+<p>Andriod开发规范</p>
+<div class="pdf" target="./Android开发规范.pdf" height></div>
+<p>数值计算方法与算法 第3版 张韵华等编 科学出版社 2016.09 210页</p>
+<div class="pdf" target="./数值计算方法与算法.pdf" height></div>
+
+
       </div>
-      
-      
-      
+
+
+
     </div>
-    
-    
-    
+
+
+
+
+
+
+
   </div>
 
 
           </div>
-          
 
 
-          
 
-  
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80ODI4My8yNDc3Nw=="></div>
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80Njg3OS8yMzM4MA=="></div>
     </div>
 
-  
+
 
 
 
         </div>
-        
-          
-  
+
+
+
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
       <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
@@ -395,205 +565,250 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
-      
 
-      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-            <a href="/">
-              <img class="site-author-image" itemprop="image"
-                src="/uploads/myself.jpg"
-                alt="Pan Xizhou" />
-            </a>
-            
-              <p class="site-author-name" itemprop="name">Pan Xizhou</p>
-              <p class="site-description motion-element" itemprop="description">Independent, rational, grateful, Loyalty</p>
+
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="丨Lingr7丨">
+
+              <p class="site-author-name" itemprop="name">丨Lingr7丨</p>
+              <div class="site-description motion-element" itemprop="description">已识乾坤大，犹怜草木青。</div>
           </div>
 
-          <nav class="site-state motion-element">
 
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/%7C%7C%20archive">
-              
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
+            <nav class="site-state motion-element">
 
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
+                <div class="site-state-item site-state-posts">
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
+                  <a href="/archives/">
 
-          </nav>
+                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
 
-          
 
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/Panxizhou" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://me.csdn.net/Pxzly1117" target="_blank" title="CSDN">
-                      
-                        <i class="fa fa-fw fa-copyright"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://weibo.com/A潘喜洲" target="_blank" title="Weibo">
-                      
-                        <i class="fa fa-fw fa-weibo"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="pxzly1117@163.com" target="_blank" title="E-Mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i></a>
-                  </span>
-                
+
+
+
+                <div class="site-state-item site-state-categories">
+
+
+
+
+
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+
+                </div>
+
+
+
+
+
+                <div class="site-state-item site-state-tags">
+
+
+
+
+
+
+
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+
+                </div>
+
+            </nav>
+
+
+
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
             </div>
-          
 
-          
-          
 
-          
-          
-            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+
+
+
+            <div class="links-of-author motion-element">
+
+                <span class="links-of-author-item">
+
+
+
+
+
+                  <a href="https://github.com/lingr7" title="GitHub &rarr; https://github.com/lingr7" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                </span>
+
+                <span class="links-of-author-item">
+
+
+
+
+
+                  <a href="mailto:lingr7@qq.com" title="E-Mail &rarr; mailto:lingr7@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+
+                <span class="links-of-author-item">
+
+
+
+
+
+                  <a href="https://weibo.com/lingr7" title="Weibo &rarr; https://weibo.com/lingr7" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
+                </span>
+
+                <span class="links-of-author-item">
+
+
+
+
+
+                  <a href="tencent://message/?uin=1694892905&Site=&menu=yes" title="QQ &rarr; tencent://message/?uin=1694892905&Site=&menu=yes" rel="noopener" target="_blank"><i class="fa fa-fw fa-qq"></i></a>
+                </span>
+
+            </div>
+
+
+
+
+
+
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
               <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-link"></i>
-                Links
+                <i class="fa  fa-fw fa-book"></i>
+                推荐阅读
               </div>
               <ul class="links-of-blogroll-list">
-                
+
                   <li class="links-of-blogroll-item">
-                    <a href="https://github.com/" title="GitHub" target="_blank">GitHub</a>
+                    <a href="http://iissnan.com/progit/" title="http://iissnan.com/progit/" rel="noopener" target="_blank">Pro Git 简体中文版</a>
                   </li>
-                
+
               </ul>
             </div>
-          
 
-          
+
+
+
+
 
         </div>
-      </section>
+      </div>
 
-      
 
-      
+
+
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+
+            <span id="scrollpercent"><span>0</span>%</span>
+
+        </div>
+
+
+
+        <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+        <div class="widget-wrap">
+            <div id="myCanvasContainer" class="widget tagcloud">
+                <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                    <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/阅读/">阅读</a><span class="tag-list-count">1</span></li></ul>
+                </canvas>
+            </div>
+        </div>
+
 
     </div>
   </aside>
 
 
-        
+
+
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        
-<!-- 修改页面底部时间显示方式 -->
-<div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
+        <div class="copyright" style=" text-align:center;">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Pan Xizhou</span>
+  <span class="author" itemprop="copyrightHolder">Lingr7</span>
 
-  
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"> 站点字数合计:</i>
+    </span>
+
+    <span title="站点总字数">18k</span>
+
+
 </div>
-
-<!-- 隐藏底部的强力驱动-->
-<!--
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 驱动</div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
--->
 
-
-
-<!-- 在网页底部添加网站运行时间 -->
-<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
-<script>
+<div class="run_time" style=" text-align:center;">
+  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+  <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("01/15/2020 00:00:00");//此处修改你的建站时间或者网站上线时间
-        now.setTime(now.getTime()+0);
+        var grt= new Date("09/29/2019 22:19:09");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
         if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "网站已运行 "+dnum+" 天 ";
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
         document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
     }
-setInterval("createtime()",250);
-</script>
+    setInterval("createtime()",250);
+  </script>
+</div>
 
-
-
-<!-- &nbsp;&nbsp;|&nbsp;&nbsp;<span><a href="https://map.baidu.com/" target="_blank" rel="noopener">百度网站地图 -->
-
-        
-<div class="busuanzi-count">
+<div class="busuanzi-count" style=" text-align:center;">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-  
-    <span class="site-uv">
-      <i class="fa fa-user"> 本站访问数</i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      人次
-    </span>
-  
 
-  
-    <span class="site-pv">
-      <i class="fa fa-eye"> 本站总访问量</i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      次
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
     </span>
-  
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 人
+    </span>
+
+
+
+    <span class="post-meta-divider">|</span>
+
+
+
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span> 次
+    </span>
+
 </div>
 
 
@@ -603,26 +818,23 @@ setInterval("createtime()",250);
 
 
 
-        
+
+
+
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-          <span id="scrollpercent"><span>0</span>%</span>
-        
-      </div>
-    
 
-    
+
+
+
+
 
   </div>
 
-  
 
-<script type="text/javascript">
+
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -636,7 +848,6 @@ setInterval("createtime()",250);
 
 
 
-  
 
 
 
@@ -649,94 +860,6 @@ setInterval("createtime()",250);
 
 
 
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
@@ -749,9 +872,94 @@ setInterval("createtime()",250);
 
 
 
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
-  <script type="text/javascript">
+
+  <script src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+
+  <script src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+
+
+
+
+  <script src="/js/affix.js?v=7.1.1"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
+
+
+
+
+
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
+
+
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+  window.livereOptions = {
+    refer: 'book/index.html'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+
+
+
+  <script>
     // Popup Window;
     var isfetched = false;
     var isXml = true;
@@ -800,6 +1008,21 @@ setInterval("createtime()",250);
         .css('overflow', 'hidden');
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
+
+        // ref: https://github.com/ForbesLindesay/unescape-html
+        var unescapeHtml = function(html) {
+          return String(html)
+            .replace(/&quot;/g, '"')
+            .replace(/&#39;/g, '\'')
+            .replace(/&#x3A;/g, ':')
+            // replace all the other &#x; chars
+            .replace(/&#(\d+);/g, function (m, p) { return String.fromCharCode(p); })
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&amp;/g, '&');
+        };
+
+
       $.ajax({
         url: path,
         dataType: isXml ? "xml" : "json",
@@ -833,8 +1056,11 @@ setInterval("createtime()",250);
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
+
+                content = unescapeHtml(content);
+
                 var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
                 var indexOfTitle = [];
                 var indexOfContent = [];
                 // only match articles with not empty titles
@@ -1003,9 +1229,9 @@ setInterval("createtime()",250);
               })
             };
             if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
             } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
             } else {
               resultItems.sort(function (resultLeft, resultRight) {
                 if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
@@ -1072,50 +1298,147 @@ setInterval("createtime()",250);
 
 
 
-  
 
-  
 
-  
 
-  
-  
-  
-  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
 
-  
-  
-  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if ($('body').find('div.pdf').length) {
+  $.ajax({
+    type: 'GET',
+    url: '//cdn.jsdelivr.net/npm/pdfobject@2.1.1/pdfobject.min.js',
+    dataType: 'script',
+    cache: true,
+    success: function() {
+      $('body').find('div.pdf').each(function(i, o) {
+        PDFObject.embed($(o).attr('target'), $(o), {
+          pdfOpenParams: {
+            navpanes: 0,
+            toolbar: 0,
+            statusbar: 0,
+            pagemode: 'thumbs',
+            view: 'FitH'
+          },
+          PDFJS_URL: '/lib/pdf/web/viewer.html',
+          height: $(o).attr('height') || '1000px'
+        });
+      });
+    },
+  });
+}
+</script>
+
+
+
+
 
   <script>
-    
-      pbOptions = {};
-      
-          pbOptions.iconStyle = "box";
-      
-          pbOptions.boxForm = "horizontal";
-      
-          pbOptions.position = "bottomCenter";
-      
-          pbOptions.networks = "Weibo,Wechat,Twitter,Facebook";
-      
-      new needShareButton('#needsharebutton-postbottom', pbOptions);
-    
-    
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
   </script>
 
-  
 
-  
 
-  
 
-  
 
-  
-   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
-   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-   <script type="text/javascript" src="/js/src/fireworks.js"></script>
 
-</body>
+
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+  <script>
+
+      pbOptions = {};
+
+        pbOptions.iconStyle = "default";
+
+        pbOptions.boxForm = "horizontal";
+
+        pbOptions.position = "topCenter";
+
+        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+
+
+  </script>
+
+
+
+
+
+
+
+  <script src="/lib/pangu/dist/pangu.min.js?v=3.3"></script>
+  <script>pangu.spacingPage();</script>
+
+
+
+
+
+  <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
+  <script>
+
+    bookmark.loadBookmark();
+
+  </script>
+
+
+
+<script>
+  $('.highlight').not('.gist .highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+
+        if (result) $(this).text('复制成功');
+        else $(this).text('复制失败');
+
+      ta.blur(); // For iOS
+      $(this).blur();
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('复制');
+      }, 300);
+    }).append(e);
+  })
+</script>
+
+
+
+
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":125,"height":250},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
