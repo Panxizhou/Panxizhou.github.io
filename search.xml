@@ -1,107 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>pdf测试</title>
-      <link href="//posts/test.html"/>
-      <url>//posts/test.html</url>
-      
-        <content type="html"><![CDATA[<div class="pdf" target="/posts/test/my.pdf" height=""></div><div class="pdf" target="https://lruihao.cn/posts/next-pdf/1.pdf" height=""></div> ]]></content>
-      
-      
+<search>
+  <entry>
+    <title>pdf测试</title>
+    <url>//posts/test.html</url>
+    <content><![CDATA[<a id="more"></a>  
+<div class="pdf" target="/posts/test/my.pdf" height=""></div>
+
+<div class="pdf" target="https://lruihao.cn/posts/next-pdf/1.pdf" height=""></div> 
+
+]]></content>
       <categories>
-          
-          <category> wo </category>
-          
+        <category>wo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>second</title>
-      <link href="//posts/second.html"/>
-      <url>//posts/second.html</url>
-      
-        <content type="html"><![CDATA[<p>关于我</p>]]></content>
-      
-      
+      <tags>
+        <tag>1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>second</title>
+    <url>//posts/second.html</url>
+    <content><![CDATA[<p>关于我</p>
+<a id="more"></a>  
+]]></content>
       <categories>
-          
-          <category> wo </category>
-          
+        <category>wo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hi,Mybolg</title>
-      <link href="//posts/fist.html"/>
-      <url>//posts/fist.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="/images/apple-touch-icon-next.jpg" alt="wo"></p><a id="more"></a>  <img src="images/apple-touch-icon-next.jpg" alt="洲"><blockquote class="blockquote-center">你</blockquote>Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，在[bilibili](www.bilibili.com/)网站上看相关视频，就动手一步一步干起来!采用Node.js + Hexo（cnpm） + Git创建博客框架，并选用网上流行的Next主题,然后按照个人喜好修改。<p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hi,Mybolg</title>
+    <url>//posts/fist.html</url>
+    <content><![CDATA[<p><img src="/images/apple-touch-icon-next.jpg" alt="wo"></p>
+<a id="more"></a>  
+<img src="images/apple-touch-icon-next.jpg" alt="洲">
+
+<blockquote class="blockquote-center">你</blockquote>
+Hellow everyone！本人学生一枚，趁假期时间搭建自己的博客，在[bilibili](www.bilibili.com/)网站上看相关视频，就动手一步一步干起来!
+采用Node.js + Hexo（cnpm） + Git创建博客框架，并选用网上流行的Next主题,然后按照个人喜好修改。
+
+<p><a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a></p>
+]]></content>
       <categories>
-          
-          <category> wo </category>
-          
+        <category>wo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 1 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="//posts/hello-world.html"/>
-      <url>//posts/hello-world.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!<br>This is your very first post.<br>Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info.<br>If you get any problems when using Hexo,<br>you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a><br>or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>]]></content>
-      
-      
+      <tags>
+        <tag>1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>//posts/hello-world.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!<br>This is your very first post. </p>
+<a id="more"></a>  
+<p>Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info.<br>If you get any problems when using Hexo,<br>you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a><br>or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+]]></content>
       <categories>
-          
-          <category> o </category>
-          
+        <category>o</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 4 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>4</tag>
+      </tags>
+  </entry>
 </search>
