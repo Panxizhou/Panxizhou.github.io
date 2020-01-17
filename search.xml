@@ -3,8 +3,9 @@
   <entry>
     <title>pdf测试</title>
     <url>//posts/test.html</url>
-    <content><![CDATA[<div class="pdf" target="/posts/test/my.pdf" height="%"></div>
+    <content><![CDATA[<div class="pdf" target="/posts/test/my.pdf" height=""></div>
 
+<p>{ “<a href="https://lruihao.cn/posts/next-pdf/1.pdf&quot;" target="_blank" rel="noopener">https://lruihao.cn/posts/next-pdf/1.pdf&quot;</a> </p>
 ]]></content>
       <categories>
         <category>wo</category>
