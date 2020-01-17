@@ -179,22 +179,22 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 1.5em;
-}
-h2 {
   font-size: 1.375em;
 }
-h3 {
+h2 {
   font-size: 1.25em;
 }
-h4 {
+h3 {
   font-size: 1.125em;
 }
-h5 {
+h4 {
   font-size: 1em;
 }
-h6 {
+h5 {
   font-size: 0.875em;
+}
+h6 {
+  font-size: 0.75em;
 }
 p {
   margin: 0 0 20px 0;
@@ -247,7 +247,7 @@ dd {
   padding: 0;
 }
 kbd {
-  background-color: #f5f5f5;
+  background-color: #ff4500;
   background-image: linear-gradient(#eee, #fff, #eee);
   border: 1px solid #ccc;
   border-radius: 0.2em;
@@ -270,7 +270,7 @@ tbody tr:nth-of-type(odd) {
   background: #f9f9f9;
 }
 tbody tr:hover {
-  background: #f5f5f5;
+  background: #ff4500;
 }
 caption,
 th,
@@ -1037,7 +1037,7 @@ pre .javascript .function {
   border-bottom: none;
   color: #222;
   display: inline-block;
-  line-height: 1.375em;
+  line-height: 1.5em;
   padding: 0 40px;
   position: relative;
 }
@@ -1047,7 +1047,7 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.375em;
+  font-size: 1.5em;
   font-weight: normal;
   line-height: 1.5;
   vertical-align: top;
@@ -1274,7 +1274,7 @@ pre .javascript .function {
   transform: rotateZ(360deg);
 }
 .site-author-name {
-  color: #f5f5f5;
+  color: #ff4500;
   font-weight: normal;
   margin: 5px 0 0;
   text-align: center;
@@ -1302,7 +1302,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff1f66;
+  background: #d4ebb8;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1395,7 +1395,7 @@ pre .javascript .function {
   margin-left: 10px;
 }
 .sidebar-nav li:hover {
-  color: #f5f5f5;
+  color: #ff4500;
 }
 .sidebar-nav .sidebar-nav-active {
   border-bottom-color: #87daff;
@@ -1849,7 +1849,7 @@ pre .javascript .function {
   color: #666;
 }
 .posts-collapse::before {
-  background: #f5f5f5;
+  background: #ff4500;
   content: ' ';
   height: 100%;
   left: 0;
@@ -2204,7 +2204,7 @@ pre .javascript .function {
   }
 }
 .post-copyright {
-  background: #f5f5f5;
+  background: #ff4500;
   border-left: 3px solid #ff2a2a;
   list-style: none;
   margin: 2em 0 0;
@@ -2307,7 +2307,7 @@ pre .javascript .function {
   content: '\f017';
 }
 .event-list .event-past {
-  background: #f5f5f5;
+  background: #ff4500;
 }
 .event-list .event-past .event-summary,
 .event-list .event-past .event-details {
@@ -2442,7 +2442,7 @@ ul.breadcrumb li + li:last-child {
   color: #222;
 }
 .search-popup .search-header {
-  background: #f5f5f5;
+  background: #ff4500;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 5px;
@@ -2594,7 +2594,7 @@ hr {
   }
 }
 .footer {
-  background: #f5f5f5;
+  background: #ff4500;
   color: #666;
   padding: 10px 0;
 }
@@ -2608,7 +2608,7 @@ hr {
   }
 }
 .header {
-  background: #f5f5f5;
+  background: #ff4500;
 }
 .header-inner {
   align-items: center;
@@ -2782,7 +2782,7 @@ hr {
   text-align: left;
 }
 .posts-expand .post-tags a {
-  background: #f5f5f5;
+  background: #ff4500;
   border-bottom: none;
   padding: 1px 5px;
 }
